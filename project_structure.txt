@@ -2,32 +2,6 @@
 ├── Dockerfile
 ├── README.md
 ├── bitcoin_predictor.tar
-├── project_structure.txt
-├── requirements.txt
-└── src
-    ├── config.py
-    ├── logs
-    │   └── app.log
-    ├── main.py
-    ├── output
-    │   └── predictions.json
-    ├── plots
-    │   └── bitcoin_price_plot.png
-    ├── project_structure.txt
-    └── utils
-        ├── __init__.py
-        ├── fetch_data.py
-        ├── model_GRU.py
-        ├── processing.py
-        ├── test_model.py
-        ├── train_model.py
-        └── visualization.py
-
-6 directories, 18 files
-.
-├── Dockerfile
-├── README.md
-├── bitcoin_predictor.tar
 ├── main.py
 ├── output
 │   └── predictions.json
