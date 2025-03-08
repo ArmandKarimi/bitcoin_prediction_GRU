@@ -1,0 +1,45 @@
+# Ignore Python cache & compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs
+*.log
+logs/
+app.log
+
+# Ignore raw & processed data
+*.csv  
+*.txt
+
+# Ignore models (they should be stored in S3)
+*.pth
+model/
+best_model.pth
+
+# Ignore config & sensitive files
+.env 
+venv/
+
+# Ignore notebooks and documentation
+notebooks/
+*.ipynb
+README.md
+
+# Ignore editor & system files
+.vscode/
+.DS_Store
+
+# Ensure Docker & dependencies are NOT ignored
+!Dockerfile
+!requirements.txt
+
+
+
+
+
+
+
+
+
